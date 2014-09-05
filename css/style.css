@@ -1,0 +1,365 @@
+body {
+	text-align: center;
+	font-family: "adobe-clean",sans-serif;
+	font-size: 18px;
+	font-weight:300;
+    color: #401010;
+}
+p {
+	line-height: 1.5em;
+}
+h1
+{
+	margin: 0;
+}
+h2 {
+	display: block;
+	line-height: 1em;
+    
+}
+.navigation
+{
+	background-color: #f7f7f7;
+	padding: 1% 1%;
+	margin: 0;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+
+    box-shadow: .25px .25px .25px #806060;
+    
+}
+.navigation ul {    box-shadow: .25px .25px .25px #806060;
+}
+.navigation li {
+	display: inline;
+	list-style: none;
+	margin-right: 2.5em;
+}
+.navigation li a {
+	text-decoration: none;
+	color: #401010;
+	opacity: 0.9;
+}
+.navigation li a:hover {
+	color:#c9c5c5;
+	opacity: 1;
+}
+.landing_page {
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+
+}
+.landing_page h1 {
+	padding: 12.5% 20%;
+	text-shadow: 0 1px 1px #401010;
+	font-size: 5em;
+	font-weight: 500;
+	color: #401010;
+	background-color: #f7f7f7;
+    line-height: 1em;
+    
+    box-shadow: .25px .25px .25px #806060;
+
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    box-shadow: .25px .25px .25px #806060;
+
+}
+
+.possible_content {
+    list-style: none;
+	color: #401010;
+    font-style: italic;
+
+}
+.possible_content li {
+	text-align: left;
+}
+.withBullets {
+    list-style: circle;
+}
+
+
+.about {
+    padding: 5% 10% 5% 10%;
+	margin-bottom: 28px;
+    font-style: italic;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+}
+	
+.projects {
+	padding: 5% 10% 5% 10%;
+    background-color: #f2f0f0;
+
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+
+}
+
+.enable {
+	padding: 18% 5% 18% 5%;
+	background-color: #f7f7f7;
+    color: #401010;
+    font-size: .85em;
+    font-style: italic;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+}
+.enable h1 {
+	margin-bottom: 30px;
+    font-style: normal
+
+}
+.find_us {
+	padding: 5% 10% 5% 10%;
+	background-color: #401010;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color: #806060;
+
+}
+.find_us h2 {
+    color:#f2f0f0;
+}
+.projects h2, .enable h2, .find_us h2, .about h2 {
+	margin-bottom: 1.5em;
+    font-style: normal;
+
+}
+a.button_find_us {
+	background-color:#c9c5c5;
+	color: black;
+	display: block;
+	width: 35%;
+	margin: auto;
+	padding: 25% 5% 18% 1%;
+	margin-top: 32px;
+	font-weight: 500;	
+}
+.find_us p a {
+	text-decoration: underline;
+	opacity: 0.9;
+}
+.find_us p a:hover {
+	color: #269591;
+	opacity: 1;
+}
+a.button_return_to_top {
+	background-color:rgba(242,240,240,.25);
+	display: block;
+	width: 15%;
+	margin: auto;
+	padding: 12px 1%;
+    
+	margin-top: 32px;
+	text-decoration: none;
+	font-weight: 75%;
+    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+}
+.find_us a {
+	text-decoration: none;
+    color: #401010;
+}
+.enable a {
+	text-decoration: none;
+	color: #c4181d
+}
+.enable h1 {
+	font-size: 5em;
+}
+.enable h3, .enable h4 {
+	text-align: left;
+}
+.enable p {
+	line-height: 1.5em;
+}
+.enable img {
+    margin: -80px;
+}
+.enable ol li {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.enable ul li {
+	text-align: left;
+}
+#enable_section.enable {
+	padding: 5% 10% 5% 10%;
+}
+#about_section.enable {
+	padding: 5% 10% 5% 10%;
+}
+
+.projects a {
+	text-decoration: none;
+	color: black;
+}
+.projects p a {
+	text-decoration: underline;
+}
+.projects a:hover {
+	color: #c4181d;
+}
+a.button_return_to_top {
+	color: black;
+}
+.find_us p a:hover {
+	color: #c9c5c5
+}
+.enable a:hover, .projects a:hover, .find_us a.button_return_to_top:hover {
+	color: #269591 ;
+}
+.projects p {
+	text-align: left;
+}
+
+.navigation li span {
+	color: #c9c5c5;
+	opacity: 0.6;
+}
+
+.browser-logo {
+
+    height:64px;
+    width: 64px:
+}
+
+/* social sprite
+   See more at: http://www.artofblog.com/social-icons-with-a-css-sprite/#sthash.yf4ADH6G.dpuf
+*/
+
+.social {
+    text-align: center;
+}
+
+ul.socialicons { 
+    list-style: none;
+    padding: 0% 5% 5% 5%;
+    overflow: auto
+}
+ul.socialicons li { 
+    width: 64px;
+    height: 66px;
+    padding: 3% 7% 3% 5%;
+    float: left    
+}
+ul.socialicons li a { 
+    
+    width: 64px;
+    height: 66px;
+    display: block;
+    background: url("../img/socialSprite2_fpo.png") no-repeat
+}
+ul.socialicons li a.twitter { 
+    background-position: 0 0
+}ul.socialicons li a.twitter:hover { 
+    background-position: -75px 0
+}
+ul.socialicons li a.codepen { 
+    background-position: 0 -70px
+}ul.socialicons li a.codepen:hover { 
+    background-position: -75px -70px
+}
+ul.socialicons li a.adobe_blog { 
+    background-position: 0 -144px
+}ul.socialicons li a.adobe_blog:hover { 
+    background-position: -75px -144px
+}
+ul.socialicons li a.github { 
+    background-position: 0 -218px
+}ul.socialicons li a.github:hover { 
+    background-position: -75px -218px
+}
+ul.socialicons li a.html_adobe { 
+    background-position: 0 -290px
+}ul.socialicons li a.html_adobe:hover { 
+    background-position: -75px -290px
+}
+
+
+@media screen and (max-width: 700px) {
+
+    body {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.landing_page h1 {
+		font-size: 3em;
+		padding: 18% 15%;
+	}
+	h1 {
+		line-height: 26px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.enable, .projects, .find_us, .about {
+        text-align: center;
+
+	   padding: 5% 10% 5% 10%;
+		width: inherit;
+	}
+
+	a.button_find_us, a.button_return_to_top {
+		width: 90%;
+	}
+
+	.projects h2, .enable h2, .find_us h2 {
+		margin-top: 8px;
+	}	
+}
+@media screen and (max-width: 850px) and (min-width: 701px) {
+
+}
+@media screen and (max-width: 480px) {
+	li.about {
+		display: none;
+	}
+	.navigation li {
+		margin-right: 1em;	
+	}
+	.navigation {
+		font-size: 14px;
+		padding: 1% 1%;
+	}
+	.projects h2, .enable h2, .find_us h2 {
+		margin-top: 20px;
+	}	
+}
+@media screen and (max-width: 570px) {
+	h1.enable {
+		display: none;
+	}
+}
+
+@media print {
+	.find_us {
+		display: none;
+    }
+	#page_navigation {
+		display: none;
+	}	
+}
